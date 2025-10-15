@@ -6,5 +6,3 @@
 ## 💼 Projects
 ## 🧠 Tools & Technologies
 ## ⚙️ How to Run Projects
-## 👩‍💻 About Me
-## 🏆 Goal
