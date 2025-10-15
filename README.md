@@ -1,13 +1,13 @@
 
 # Linux Basics 
 
-🔸 [EXERCISE 1: Linux Mint Virtual Machine](linux-basics/exercise-2-bash-script-install-java.sh)
+🔸 [EXERCISE 1: Linux Mint Virtual Machine]
 
 Create a Linux Mint Virtual Machine on your computer. Check the distribution, which package manager it uses (yum, apt, apt-get). Which CLI editor is configured (Nano, Vi, Vim). What software center/software manager it uses. Which shell is configured for your user. 
 
 
 
-🔸 [EXERCISE 2: Bash Script - Install Java]
+🔸 [EXERCISE 2: Bash Script - Install Java](linux-basics/exercise-2-bash-script-install-java.sh)
 
 Write a bash script using Vim editor that installs the latest java version and checks whether java was installed successfully by executing a java -version command.
 
