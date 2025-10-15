@@ -1,34 +1,62 @@
-</details>
+# 🧰 DevOps Bootcamp — Exercises & Projects  
+Welcome to my **DevOps Bootcamp Portfolio**! 🚀  
+This repository contains all practical exercises, bash scripts, automation examples, and DevOps projects I’ve completed during the Bootcamp.  
 
-******
+Each section below can be expanded to view detailed steps, commands, and reference links.  
 
-<details>
-<summary>Exercise 1: Linux Mint Virtual Machine </summary>
- <br />
+---
 
-Download Page
-- https://linuxmint.com/download.php
+## 📚 Table of Contents
+- [Exercise 1: Linux Mint Virtual Machine](#exercise-1-linux-mint-virtual-machine)
+- [Exercise 2: Bash Script — Install Java](#exercise-2-bash-script---install-java)
+- [Exercise 3: .....]
 
-Installation Guide
-- https://linuxmint-installation-guide.readthedocs.io/en/latest/
-
-If you have any issues creating the VM locally, you can use this free online VM platform to get access to Linux Mint
-- https://www.onworks.net/component/content/article?id=65735:free-linux-mint-online
-
-_Just click on "run online" and it will spin up a new Mint OS machine for you_
-
-</details>
-
-******
+---
 
 <details>
-<summary>Exercise 2: Bash Script - Install Java </summary>
- <br />
+<summary>💻 <strong>Exercise 1: Linux Mint Virtual Machine</strong></summary>
+<br/>
 
-**script:**
-```sh
-#!/bin/bash
+### 🖥️ Objective
+Set up a Linux Mint virtual machine to be used as your primary DevOps environment.
 
-apt update
+---
 
+### 📥 Download Page
+- [Linux Mint Official Download](https://linuxmint.com/download.php)
 
+### 📘 Installation Guide
+- [Linux Mint Installation Guide](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
+
+### ☁️ Alternative: Run Mint Online
+If you face issues running Mint locally, you can use this free browser-based VM:  
+- [Run Linux Mint Online](https://www.onworks.net/component/content/article?id=65735:free-linux-mint-online)
+
+📝 _Click **“Run Online”**, and it will spin up a new Mint OS instance in your browser._
+
+</details>
+
+---
+
+<details>
+<summary>⚙️ <strong>Exercise 2: Bash Script — Install Java</strong></summary>
+<br/>
+
+### 🧠 Task Description
+Write a **bash script** using **Vim** that installs the latest Java version and verifies the installation with `java -version`.
+
+After installation, the script checks:
+1. Whether Java is installed at all  
+2. Whether an **older Java version** (lower than 11) is installed  
+3. Whether a **Java version 11 or higher** is installed  
+
+✅ Installation is successful if condition #3 is met.
+
+---
+
+### 💡 Hint
+You can use the `awk` command to extract specific parts of text.  
+Example:
+```bash
+echo "apple banana cherry" | awk '{print $2}'
+# Output: banana
