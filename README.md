@@ -27,6 +27,5 @@ Would output: banana
 You can see more examples here: https://www.tutorialspoint.com/awk/awk_basic_examples
 
 
-linux-basics/exercise-2-bash-script-install-java.sh
-🔸 Шпаргалка:
-- [Linux Command Cheat Sheet (PDF)](https://files.fosswire.com/2007/08/fwunixref.pdf)
+🔸 EXERCISE 3: Bash Script - User Processes
+Write a bash script using Vim editor that checks all the processes running for the current user (USER env var) and prints out the processes in console. Hint: use ps aux command and grep for the user.
