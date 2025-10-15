@@ -7,8 +7,8 @@ Each section below can be expanded to view detailed steps, commands, and referen
 ---
 
 ## 📚 Table of Contents
-- [Exercise 1: Linux Mint Virtual Machine](#exercise-1-linux-mint-virtual-machine)
-- [Exercise 2: Bash Script — Install Java](#exercise-2-bash-script---install-java)
+- [Exercise 1: Linux Mint Virtual Machine](linux-basics/exercise-1-linux-mint-virtual-machine.md)
+- [Exercise 2: Bash Script – Install Java](linux-basics/exercise-2-bash-script-install-java.md)
 - [Exercise 3: .....]
 
 ---
