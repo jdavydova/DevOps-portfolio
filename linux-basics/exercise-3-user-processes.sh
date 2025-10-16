@@ -14,7 +14,8 @@
 
 echo "Checking process for user: $USER"
 
-ps aux | grep 	"^$USER"
+ps aux | grep 	"^$USER" | grep -v grep
 
-process_count=$(ps -u "$USER" | wc -l)
+process_count=$(ps -aux "$USER" | wc -l)
+
 echo "Total processes for $USER: $process_count"
