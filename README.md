@@ -30,3 +30,7 @@ You can see more examples here: https://www.tutorialspoint.com/awk/awk_basic_exa
 🔸 [EXERCISE 3:Bash Script - User Processes](linux-basics/exercise-3-user-processes.sh)
 
 Write a bash script using Vim editor that checks all the processes running for the current user (USER env var) and prints out the processes in console. Hint: use ps aux command and grep for the user.
+
+🔸 EXERCISE 4: Bash Script - User Processes Sorted(linux-basics/exercise-4-user-processes-sorted.sh)
+
+Extend the previous script to ask for a user input for sorting the processes output either by memory or CPU consumption, and print the sorted list.
