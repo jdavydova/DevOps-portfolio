@@ -55,6 +55,6 @@ If any of the variables is not set, the node app will print error message that e
 It will give you a warning about LOG_DIR variable not set. You can ignore it for now.
 
 
-🔸 [EXERCISE 7: Bash Script - Node App Check Status]
+🔸 [EXERCISE 7: Bash Script - Node App Check Status](linux-basics/exercise-7-node-app-check-status.sh)
 
 Extend the script to check after running the application that the application has successfully started and prints out the application's running process and the port where it's listening. 
