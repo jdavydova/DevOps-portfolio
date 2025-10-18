@@ -57,4 +57,16 @@ It will give you a warning about LOG_DIR variable not set. You can ignore it for
 
 🔸 [EXERCISE 7: Bash Script - Node App Check Status](linux-basics/exercise-7-node-app-check-status.sh)
 
-Extend the script to check after running the application that the application has successfully started and prints out the application's running process and the port where it's listening. 
+Extend the script to check after running the application that the application has successfully started and prints out the application's running process and the port where it's listening.
+
+🔸 [EXERCISE 8: Bash Script - Node App with Log Directory](linux-basics/exercise-8-node-app-check-log-dir.sh)
+
+Extend the script to accept a parameter input log_directory: a directory where application will write logs.
+
+The script will check whether the parameter value is a directory name that doesn't exist and will create the directory, if it does exist, it sets the env var LOG_DIR to the directory's absolute path before running the application, so the application can read the LOG_DIR environment variable and write its logs there.
+
+Note:
+
+Check the app.log file in the provided LOG_DIR directory.
+This is what the output of running the application must look like: node-app-output.png
+
