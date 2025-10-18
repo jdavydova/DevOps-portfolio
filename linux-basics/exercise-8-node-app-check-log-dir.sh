@@ -83,10 +83,10 @@ if lsof -i :3000 >/dev/null 2>&1; then
   echo "Old process $OLD_PID stopped."
 fi
 
-if [ ! -d $LOG_DIR ]
+if [ ! -d "$LOG_DIR" ]
 then
     echo "Logs directory doesn't exist. I will create $LOG_DIR directory."
-    mkdir -p $LOG_DIR
+    mkdir -p "$LOG_DIR"
 else
    echo "Logs directory - $LOG_DIR exists"
 fi
