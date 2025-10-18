@@ -2,7 +2,7 @@
 
 # ==========================================
 
-EXERCISE 6: Bash Script - Start Node App
+EXERCISE 7: Bash Script -  Node App Check Status
 
 # ==========================================
 
