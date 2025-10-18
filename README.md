@@ -70,7 +70,7 @@ Note:
 Check the app.log file in the provided LOG_DIR directory.
 This is what the output of running the application must look like: node-app-output.png
 
-🔸 [EXERCISE 9: Bash Script - Node App with Service user]
+🔸 [EXERCISE 9: Bash Script - Node App with Service user](linux-basics/exercise-9-node-app-with-service-user.sh)
 
 You've been running the application with your user. But we need to adjust that and create own service user: myapp for the application to run. So extend the script to create the user and then run the application with the service user. 
 
